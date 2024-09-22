@@ -38,6 +38,7 @@ export default function page() {
     <div>
       <h1 className="text-3xl font-bold text-blue-500 text-center mt-8">
         Our Team Membears
+
       </h1>
       <div className="flex flex-wrap justify-center items-center">
         {teamMembers.map((member) => (

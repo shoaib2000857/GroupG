@@ -1,5 +1,6 @@
-import Header from "../components/header"
+import Header from "../components/header";
 import "./globals.css";
+
 export const metadata = {
   title: "GenAI Hackathon",
   description:
@@ -9,9 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="">
-        <Header/>
-        {children}</body>
+      <body className="bg-green-200 text-green-900">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

@@ -11,13 +11,13 @@ const Header = () => {
     { name: "Contact", href: "/contact" },
   ];
   return (
-    <nav className=" shadow-md">
+    <nav className="shadow-md bg-green-700 text-green-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             {/* Logo */}
-            <div className="flex-shrink-0 p-1.5 rounded-full hover:bg-blue-600">
-              <Link href="/" className="text-xl font-bold ">
+            <div className="flex-shrink-0 p-1.5 rounded-full hover:bg-green-500">
+              <Link href="/" className="text-xl font-bold text-green-50">
                 GenAI
               </Link>
             </div>
@@ -28,7 +28,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:text-green-300 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {item.name}
                 </Link>
@@ -41,7 +41,7 @@ const Header = () => {
           <div className="-mr-2 flex items-center sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md  hover:text-blue-600 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md hover:text-green-300 focus:outline-none"
             >
               <svg
                 className="h-6 w-6"
@@ -80,7 +80,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+                className="hover:text-green-300 block px-3 py-2 rounded-md text-base font-medium"
               >
                 {item.name}
               </Link>
