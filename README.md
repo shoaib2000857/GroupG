@@ -60,4 +60,4 @@ Contributions are welcome! Please feel free to submit issues and pull requests.
 - [Ashutosh Gaurav](https://www.linkedin.com/in/ashutosh-li)
 - [SHOAIB SALEHMOHAMED](https://github.com/shoaib2000857)
 - [Marmik Gajbhiye](https://github.com/Marmikgaj)
-- Vijaya Tejas
+- [Tejas V](https://github.com/TejasVijaya74)
