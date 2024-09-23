@@ -78,6 +78,7 @@ const Header = () => {
           <div className="space-y-1 px-2 pt-2 pb-3">
             {navbar.map((item) => (
               <Link
+                onClick={() => setIsOpen(false)}
                 key={item.name}
                 href={item.href}
                 className="hover:text-green-300 block px-3 py-2 rounded-md text-base font-medium"
