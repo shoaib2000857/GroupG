@@ -25,11 +25,11 @@ const teamMembers = [
     image: "https://github.com/Marmikgaj.png",
   },
   {
-    name: "Vijaya Tejas",
+    name: "Tejas Vijaya",
     tittle: "Devloper",
     linkedin: "",
-    github: "",
-    image: "",
+    github: "https://github.com/TejasVijaya74",
+    image: "https://github.com/TejasVijaya74.png",
   },
 ];
 
