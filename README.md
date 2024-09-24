@@ -6,7 +6,7 @@ This project is a web application that allows users to generate Image and Video.
 
 ## Features
 
-- Soon...
+- Very Soon...
 
 ## Technologies Used
 
