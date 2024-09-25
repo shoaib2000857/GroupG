@@ -33,7 +33,7 @@ export function HeroSection() {
   }
   return (
     <div className="bg-green-200 text-green-900 p-8">
-      <h1 className="text-2xl font-bold text-green-700">
+      <h1 className="text-4xl font-bold text-green-700">
         Gen AI Exchange Hackathon by Google
       </h1>
       {response && <p className="text-xl font-bold text-green-500">{response}</p>}
