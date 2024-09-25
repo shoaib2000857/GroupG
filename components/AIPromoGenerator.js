@@ -32,7 +32,6 @@ const Slider = ({ label, value, color }) => (
       <span>{value}px</span>
     </div>
     <input type="range" min="300" max="2000" value={value} className={`w-full accent-${color}-500`} />
-    onChange={(e) => onValueChange(Number(e.target.value))}
   </div>
 );
 
